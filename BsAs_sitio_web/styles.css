@@ -1,6 +1,38 @@
 header{
-	font-size : 12pt;
-	font-family : arial,helvetica;
-	font-weight : normal;
-	background-color: rgb(23,99,06)
+	background-color: rgb(23,99,06);
 }
+
+.mainScreen{
+    background-image: url("./assets/hawaii.jpg");
+    align-items: right;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    margin: 20px auto
+}
+
+.secondScreen{
+    background-color: rgb(23,99,06);
+}
+
+.thirdScreen{
+    background-color: rgb(23,99,06);
+}
+
+.formScreen{
+    background-color: rgb(23,99,06);
+}
+
+.test{
+    display:flex
+}
+
+.test .imagenes{
+    background-color: rgb(77,00,00);
+}
+
+/*
+	display: inline-block; //
+
+
+
+*/
