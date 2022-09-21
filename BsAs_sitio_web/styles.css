@@ -1,40 +1,69 @@
 header{
 	display: flex;
-	justify-content: flex-end;
-	background-color: rgb(23,99,06);
+	justify-content: center;
+}
+
+.logoCac{
+    display: flex;
+    background-color: rgb(99,99,99);
+    width: 40%;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(124,00,09);
+    width: 60%;
 }
 
 .mainScreen{
+    display: flex;
     background-image: url("./assets/hawaii.jpg");
-    align-items: right;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    margin: 20px auto;
+    background-repeat: no-repeat;
+    height: 500px;
+    justify-content: right;
+    align-items: center;
+    text-align: right;
 }
 
 .secondScreen{
     background-color: rgb(23,99,06);
+    text-align-last: center;
+    align-content: right;
+}
+
+.containerCards{
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: left:
+    background-color: rgb(77,63,67);
 }
 
 .thirdScreen{
-    background-color: rgb(23,00,96);
+    display:flex;
+    background-color: rgb(11,23,20);
+    justify-content: right;
+    align-items: center;
+}
+
+.thirdScreenPicture{
+    display: flex;
 }
 
 .formScreen{
+    display: flex;
     background-color: rgb(23,99,06);
 }
 
-.test{
-    display:flex;
-}
-
-.test .imagenes{
-    background-color: rgb(77,00,00);
-}
 
 /*
 	display: inline-block; //
-
-
-
 */

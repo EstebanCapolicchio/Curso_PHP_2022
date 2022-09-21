@@ -2,31 +2,39 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Bs As</title>
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
-        <img src="./assets/codoacodo.png" width="100" alt="Logo de 'Codo a Codo'">
-        <h2>Conf Bs As</h2>
-        <a href="">La conferencia</a>
-        <a href="">Los oradores</a>
-        <a href="">El lugar y la fecha</a>
-        <a href="">Conviértete en orador</a>
-        <a href="">Comprar tickets</a>
+        <div class="logoCac">
+            <img src="./assets/codoacodo.png" width="100" alt="Logo de 'Codo a Codo'">
+            <h2>Conf Bs As</h2>
+        </div>
+        <div class="navigation">
+            <a href="">La conferencia</a>
+            <a href="">Los oradores</a>
+            <a href="">El lugar y la fecha</a>
+            <a href="">Conviértete en orador</a>
+            <a href="">Comprar tickets</a>
+        </div>
     </header>
     <section class="mainScreen">
-        <h1>Conf Bs As</h1>
-        <p>###</p>
-        <button>Quiero ser Orador</button>
-        <button>Comprar tickets</button>
+        <div>
+            <h1>Conf Bs As</h1>
+            <p>###</p>
+            <button>Quiero ser Orador</button>
+            <button>Comprar tickets</button>
+        </div>
     </section>
     <section class="secondScreen">
-        <h4>Conoce a los</h4>
-        <h2>ORADORES</h2>
-        <div class="test">
-            <div class="imagenes">
+        <div>
+            <h4>Conoce a los</h4>
+            <h2>ORADORES</h2>
+        </div>
+        <div class="containerCards">
+            <div class="card">
                 <img src="./assets/steve.jpg" width="300" height="300" alt="Steve Jobs">
                 <br>
                 <button>JavaScript</button>
@@ -34,7 +42,7 @@
                 <h3>Steve Jobs</h3>
                 <p>###</p>
             </div>
-            <div class="imagenes">
+            <div class="card">
                 <img src="./assets/bill.jpg" width="300" height="300" alt="Bill Gates">
                 <br>
                 <button>JavaScript</button>
@@ -42,7 +50,7 @@
                 <h3>Bill Gates</h3>
                 <p>###</p>
             </div>
-            <div class="imagenes">
+            <div class="card">
                 <img src="./assets/ada.jpeg" width="300" height="300" alt="Ada Lovelace">
                 <br>
                 <button>Negocios</button>
@@ -53,15 +61,21 @@
         </div>
     </section>
     <section class="thirdScreen">
-        <img src="./assets/honolulu.jpg" width="400" alt="Honolulu">
-        <h2>Bs As - Octubre</h2>
-        <p>###</p>
-        <button>Conocé más</button>
+        <div class="thirdScreenPicture">
+            <img src="./assets/honolulu.jpg" width="50%" alt="Honolulu">
+        </div>
+        <div>
+            <h2>Bs As - Octubre</h2>
+            <p>###</p>
+            <button>Conocé más</button>
+        </div>
     </section>
     <section class="formScreen">
-        <h4>CONVIÉRTETE EN UN</h4>
-        <h2>ORADOR</h2>
-        <p>###</p>
+        <div>
+            <h4>CONVIÉRTETE EN UN</h4>
+            <h2>ORADOR</h2>
+            <p>###</p>
+        </div>
         <form action="">
             <label>Nombre</label>
             <input type="text" placeholder="Nombre" required>
