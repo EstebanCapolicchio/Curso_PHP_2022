@@ -10,19 +10,25 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-left: 10px;
 }
 
 .headerIzquierdo a{
     margin-left: 20px;
 }
 
-.headerIzquierdo a:link{
+.headerIzquierdo button{
     text-decoration: none;
+    border: none;
     font-family: Arial, Helvetica;
+    color: black;
 }
 
-.headerIzquierdo a:visited{
-    color: black;
+.headerIzquierdo button:disabled{
+    text-decoration: none;
+    border: none;
+    font-family: Arial, Helvetica;
+    color: grey;
 }
 
 .buscador{
