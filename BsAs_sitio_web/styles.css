@@ -7,6 +7,7 @@ header{
     display: flex;
     background-color: rgb(99,99,99);
     width: 40%;
+    padding-left: 50px;
 }
 
 .navigation{
@@ -15,47 +16,69 @@ header{
     align-items: center;
     background-color: rgb(124,00,09);
     width: 60%;
+    padding-right: 50px;
+}
+
+.navigation a:link{
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+}
+
+.navigation a:visited{
+    color: white;
 }
 
 .mainScreen{
     display: flex;
-    background-image: url("./assets/hawaii.jpg");
+    color: white;
+    background-image: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(0,0,0,0.7) 100%), url("./assets/hawaii.jpg");
     background-repeat: no-repeat;
+    background-size: 96%;
+    background-position: 00% 75%;
     height: 500px;
     justify-content: right;
     align-items: center;
     text-align: right;
+    padding-right: 70px;
 }
 
 .secondScreen{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
     background-color: rgb(23,99,06);
-    text-align-last: center;
-    align-content: right;
+    text-align: center;
 }
 
 .containerCards{
     display:flex;
     align-items: center;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .card{
     display: flex;
+    padding: 15px;
+    margin-left: 10px;
     flex-direction: column;
-    align-items: left:
     background-color: rgb(77,63,67);
+    text-align: left;
+}
+
+.cardDescriptiveButton{
+    padding-top: 10px;
 }
 
 .thirdScreen{
     display:flex;
-    background-color: rgb(11,23,20);
-    justify-content: right;
-    align-items: center;
+    background-color: rgb(80,23,80);
+    text-align: left;
 }
 
-.thirdScreenPicture{
-    display: flex;
+.thirdScreenText{
+    padding-left: 20px;
+    align-items: left;
 }
 
 .formScreen{
@@ -63,6 +86,12 @@ header{
     background-color: rgb(23,99,06);
 }
 
+footer{
+    display: flex;
+    background: rgb(34,56,78);
+    padding: 20px 90px;
+    justify-content: space-between;
+}
 
 /*
 	display: inline-block; //

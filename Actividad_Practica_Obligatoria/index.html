@@ -3,10 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Act. Obligatoria CoC.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header></header>
-    <section class="cartas"></section>
-    <section class="formulario"></section>
+    <header>
+        <div class="headerIzquierdo">
+            <a class="h2" href="">Codo a Codo</a>
+            <a href="">Inicio</a>
+            <a href="">Link</a>
+            <a href="">Desactivado</a>
+        </div>
+        <div class="buscador">
+            <input type="text" class="form-control" placeholder="Buscar">
+            <button type="button" class="btn btn-outline-success">Buscar</button>
+        </div>
+    </header>
+    <section class="cartas">
+        <div class="card" style="width: 33%;">
+            <img src="./assets/html5.jpg" class="card-img-top" height="200"  width="300">
+            <div class="card-body">
+                <h2>titulo 1</h2>
+                <p>Contenido de Card</p>
+                <h6>Ultima actualización 1</h6>
+            </div>
+        </div>
+        <div class="card" style="width: 33%;">
+            <img src="./assets/css_blog.png" class="card-img-top" height="200" width="300">
+            <div class="card-body">
+                <h2>titulo 2</h2>
+                <p>Contenido de Card</p>
+                <h6>Ultima actualización 1</h6>
+            </div>
+        </div>
+        <div class="card" style="width: 33%;">
+            <img src="./assets/bootstrap.png" class="card-img-top" height="200" width="300">
+            <div class="card-body">
+                <h2>titulo 3</h2>
+                <p>Contenido de Card</p>
+                <h6>Ultima actualización 1</h6>
+            </div>
+        </div>
+    </section>
+    <form action="" class="formulario">
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control">
+            <small class="form-text text-muted">Nunca compartiremos su email.</small>
+        </div>
+        <div class="form-group">
+            <label>Contraseña</label>
+            <input type="password" class="form-control">
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Verificar</label>
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
 </body>
 </html>
