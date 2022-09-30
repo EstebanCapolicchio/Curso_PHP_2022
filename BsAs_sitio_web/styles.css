@@ -5,6 +5,8 @@ header{
 
 .logoCac{
     display: flex;
+    align-items: center;
+    color: white;
     background-color: rgb(99,99,99);
     width: 40%;
     padding-left: 50px;
@@ -72,6 +74,7 @@ header{
 
 .thirdScreen{
     display:flex;
+    color: white;
     background-color: rgb(80,23,80);
     text-align: left;
 }
