@@ -172,3 +172,8 @@ footer a:link{
     font-weight:bold;
     color: white;
 }
+
+@media screen and (max-width: 760px)
+header{
+    background-color: red;
+}
