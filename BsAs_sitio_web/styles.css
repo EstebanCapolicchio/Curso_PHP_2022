@@ -176,16 +176,16 @@ footer a:link{
 }
 
 @media screen and (max-width:1024px){
-    header{
-        flex-direction: row;
-    }
 
     .navigation{
-        flex-direction: row;
+        font-size: 80%;
     }
 
     footer{
-        background: blue;
+        font-size: 80%;
+        padding: 30px 50px;
+        justify-content: space-around;
+
     }
 }
 
@@ -241,10 +241,6 @@ footer a:link{
         text-decoration: none;
         font-family: Arial, Helvetica;
         font-size: 80%;
-    }
-
-    footer{
-        background: black;
     }
 }
 
