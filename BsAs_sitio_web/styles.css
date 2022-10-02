@@ -204,11 +204,43 @@ footer a:link{
         flex-direction: column;
         width: 100%;
         align-items: center;
-        text-align: left;
+        text-align: right;
+        justify-content: left;
+    }
+
+    .mainScreen{
+        background-size: 150%;
+        background-position: 0% 0%;
+        justify-content: right;
+    }
+
+    .rightMainScreen{
+        width: 50%;
+    }
+
+    .containerCards{
+        margin: 0 0;
+        padding-right: 10px;
     }
 
     .card{
         width: 30vw;
+        font-size: 2vh;
+    }
+
+    .thirdScreenText{
+        font-size: 75%;
+    }
+
+    footer{
+        padding: 10px 20px;
+        justify-content: space-around;
+    }
+
+    footer a:link{
+        text-decoration: none;
+        font-family: Arial, Helvetica;
+        font-size: 80%;
     }
 
     footer{
