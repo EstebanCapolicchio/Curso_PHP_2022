@@ -49,10 +49,17 @@ header{
     align-items: center;
     text-align: right;
     padding-right: 70px;
+    animation: backgroundCarousel 10s infinite;
 }
 
 .rightMainScreen{
     width: 40%;
+}
+
+@keyframes backgroundCarousel {
+  0%   {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./assets/hawaii.jpg");}
+  40%  {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./assets/hawaii2.jpg");}
+  80% {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./assets/hawaii3.jpg");}
 }
 
 .secondScreen{
@@ -175,7 +182,7 @@ footer a:link{
     color: white;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (min-width:768px) and (max-width:1024px){
 
     .navigation{
         font-size: 80%;
@@ -185,11 +192,11 @@ footer a:link{
         font-size: 80%;
         padding: 30px 50px;
         justify-content: space-around;
-
+        background: red;
     }
 }
 
-@media only screen and (max-width:768px){
+@media screen and (max-width:768px){
     header{
         flex-direction: column;
         height: 20%;
