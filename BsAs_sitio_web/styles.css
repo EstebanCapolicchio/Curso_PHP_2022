@@ -1,22 +1,27 @@
 header{
 	display: flex;
 	justify-content: center;
+	height: 70px;
 }
 
 .logoCac{
     display: flex;
     align-items: center;
     color: white;
-    background-color: rgb(99,99,99);
+    background-color: rgb(50,50,50);
     width: 40%;
     padding-left: 50px;
 }
 
+.logoImagen{
+    width: 100px;
+}
+
 .navigation{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background-color: rgb(124,00,09);
+    background-color: rgb(50,50,50);
     width: 60%;
     padding-right: 50px;
 }
@@ -27,7 +32,7 @@ header{
 }
 
 .navigation a:visited{
-    color: white;
+    color: rgb(150,150,150);
 }
 
 .mainScreen{
@@ -44,27 +49,32 @@ header{
     padding-right: 70px;
 }
 
+.rightMainScreen{
+    width: 40%;
+}
+
 .secondScreen{
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
     padding-bottom: 20px;
-    background-color: rgb(23,99,06);
+    background-color: rgb(255,255,255);
     text-align: center;
 }
 
 .containerCards{
     display:flex;
-    align-items: center;
+    align-items: flex-start;
     margin: 0 auto;
     justify-content: center;
 }
 
 .card{
     display: flex;
-    padding: 15px;
-    margin-left: 10px;
+    margin-left: 20px;
+    width: 300px;
     flex-direction: column;
-    background-color: rgb(77,63,67);
+    background-color: rgb(255,255,255);
     text-align: left;
 }
 
@@ -75,31 +85,90 @@ header{
 .thirdScreen{
     display:flex;
     color: white;
-    background-color: rgb(80,23,80);
+    background-color: rgb(50,50,50);
     text-align: left;
+}
+
+.thirdScreenImagen{
+    width: 50%;
 }
 
 .thirdScreenText{
     padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
     align-items: left;
 }
 
 .formScreen{
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(23,99,06);
+    background-color: rgb(255,255,255);
+}
+
+.formulario{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.formularioTop{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.formularioTopLeft{
+    width: 47%;
+}
+
+.formularioTopRight{
+    width: 47%;
+}
+
+.formularioMid{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.btnLightGreenColor{
+    padding: 10px;
+    border: none;
+    color: rgb(255,255,255);
+    background-color: rgb(141,182,0);
 }
 
 footer{
     display: flex;
-    background: rgb(34,56,78);
-    padding: 20px 90px;
+    background: rgb(34,70,90);
+    padding: 30px 200px;
     justify-content: space-between;
+    justify-text: center
 }
 
-/*
-	display: inline-block; //
-*/
+footer a:link{
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+}
+
+.customButtonBlackText{
+    padding: 0.5px 5px;
+    font-size: 10px;
+    font-weight:bold;
+}
+
+.customButtonWhiteText{
+    padding: 0.5px 5px;
+    font-size: 10px;
+    font-weight:bold;
+    color: white;
+}
