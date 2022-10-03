@@ -227,6 +227,7 @@ footer a:link{
 
     .rightMainScreen{
         width: 50%;
+        font-size: 3vw
     }
 
     .containerCards{
@@ -236,11 +237,11 @@ footer a:link{
 
     .card{
         width: 30vw;
-        font-size: 2vh;
+        font-size: 1vh;
     }
 
     .thirdScreenText{
-        font-size: 75%;
+        font-size: 60%;
     }
 
     footer{
