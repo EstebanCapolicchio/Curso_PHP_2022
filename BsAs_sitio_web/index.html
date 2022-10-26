@@ -6,24 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href="./bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
         <div class="logoCac">
-            <img src="./assets/codoacodo.png" class="logoImagen" alt="Logo de 'Codo a Codo'">
-            <h4>Conf Bs As</h4>
+            <a href="#"><img src="./assets/codoacodo.png" class="logoImagen" alt="Logo de 'Codo a Codo'"></a>
+            <a class="h4" href="#top">Conf Bs As</a>
         </div>
         <div class="navigation">
-            <a class="link-light" href="">La conferencia</a>
-            <a class="nav-link" href="">Los oradores</a>
-            <a class="nav-link" href="">El lugar y la fecha</a>
-            <a class="nav-link" href="">Conviértete en orador</a>
-            <a class="link-success" href="">Comprar tickets</a>
+            <a class="link-light" href="#mainScreen">La conferencia</a>
+            <a class="nav-link" href="#secondScreen">Los oradores</a>
+            <a class="nav-link" href="#thirdScreen">El lugar y la fecha</a>
+            <a class="nav-link" href="#formScreen">Conviértete en orador</a>
+            <a class="link-success" href="./comprar_ticket.html">Comprar tickets</a>
         </div>
     </header>
-    <section class="mainScreen">
+    <section id="mainScreen" class="mainScreen">
         <div class="rightMainScreen">
             <h2>Conf Bs As</h2>
             <p class="card-text">Finally control a planet.Popcorn can be seasoned with sour noodles, also try decorateing the pie with joghurt.
@@ -33,7 +33,7 @@
             <button class="btn btn-success">Comprar tickets</button>
         </div>
     </section>
-    <section class="secondScreen">
+    <section id="secondScreen" class="secondScreen">
         <div>
             <h6>Conoce a los</h6>
             <h2>ORADORES</h2>
@@ -82,7 +82,7 @@
             </div>
         </div>
     </section>
-    <section class="thirdScreen">
+    <section id="thirdScreen" class="thirdScreen">
         <img src="./assets/honolulu.jpg" class="thirdScreenImagen" alt="Honolulu">
         <div class="thirdScreenText">
             <h2>Bs As - Octubre</h2>
@@ -93,7 +93,7 @@
             <button class="btn btn-outline-light">Conocé más</button>
         </div>
     </section>
-    <section class="formScreen">
+    <section id="formScreen" class="formScreen">
         <div>
             <h6>CONVIÉRTETE EN UN</h6>
             <h3>ORADOR</h3>

@@ -14,6 +14,15 @@ header{
     padding-left: 50px;
 }
 
+.logoCac a:link{
+    text-decoration: none;
+    color: rgb(250,250,250);
+}
+
+.logoCac a:visited{
+    color: rgb(250,250,250);
+}
+
 .logoImagen{
     width: 100px;
 }
@@ -31,6 +40,7 @@ header{
 .navigation a:link{
     text-decoration: none;
     font-family: Arial, Helvetica;
+    color: rgb(150,150,150);
 }
 
 .navigation a:visited{
@@ -57,9 +67,10 @@ header{
 }
 
 @keyframes backgroundCarousel {
-  0%   {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./assets/hawaii.jpg");}
-  40%  {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./assets/hawaii2.jpg");}
-  80% {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./assets/hawaii3.jpg");}
+  0%   {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/hawaii.jpg");}
+  40%  {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/hawaii2.jpg");}
+  70% {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/hawaii3.jpg");}
+  100% {background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/hawaii.jpg");}
 }
 
 .secondScreen{

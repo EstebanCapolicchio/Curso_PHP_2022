@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bs As - Tickets</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/ticket_styles.css">
+    <script type="text/javascript" src="./js/ticket.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logoCac">
+            <a href="./index.html#"><img src="./assets/codoacodo.png" class="logoImagen" alt="Logo de 'Codo a Codo'"></a>
+            <a class="h4" href="./index.html#">Conf Bs As</a>
+        </div>
+        <div class="navigation">
+            <a class="link-light" href="./index.html#mainScreen">La conferencia</a>
+            <a class="nav-link" href="./index.html#secondScreen">Los oradores</a>
+            <a class="nav-link" href="./index.html#thirdScreen">El lugar y la fecha</a>
+            <a class="nav-link" href="./index.html#formScreen">Conviértete en orador</a>
+            <a class="link-success" href="#">Comprar tickets</a>
+        </div>
+    </header>
+    <section id="formScreen" class="formScreen">
+        <div class="containerCards ticket-container-cards">
+            <div class="card ticket-card border-primary" >
+                <div class="card-body">
+                    <h5 class="card-text">Estudiante</h5>
+                    <p class="card-text">Tienen un descuento</p>
+                    <h5 class="card-text">80%</h5>
+                    <small class="form-text text-muted">* presentar documentación</small>
+                </div>
+            </div>
+            <div class="card ticket-card border-info">
+                <div class="card-body">
+                    <h5 class="card-text">Trainee</h5>
+                    <p class="card-text">Tienen un descuento</p>
+                    <h5 class="card-text">50%</h5>
+                    <small class="form-text text-muted">* presentar documentación</small>
+                </div>
+            </div>
+            <div class="card ticket-card border-warning">
+                <div class="card-body">
+                    <h5 class="card-text">Junior</h5>
+                    <p class="card-text">Tienen un descuento</p>
+                    <h5 class="card-text">15%</h5>
+                    <small class="form-text text-muted">* presentar documentación</small>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h6>VENTA</h6>
+            <h3>VALOR DE TICKET $200</h3>
+        </div>
+        <form class="formulario" action="">
+            <div class="row g-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                </div>
+                <div class="col-12">
+                    <input type="text" class="form-control" placeholder="Correo">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Cantidad</label>
+                    <input type="text" class="form-control" placeholder="Cantidad">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Categoría</label>
+                    <select class="form-select">
+                        <option selected>Estudiante</option>
+                        <option>Trainee</option>
+                        <option>Junior</option>
+                    </select>
+                </div>
+                <div class="btn btn-primary text-bg-info">Info with contrasting color</div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button type="button" class="btn btn-primary btnLightGreenColor">Borrar</button>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button type="button" class="btn btn-primary btnLightGreenColor">Resumen</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <a class="link-light" href=""><b>Preguntas frecuentes</b></a>
+        <a class="link-light" href="">Contáctanos</a>
+        <a class="link-light" href="">Prensa</a>
+        <a class="link-light" href="">Conferencias</a>
+        <a class="link-light" href="">Términos y condiciones</a>
+        <a class="link-light" href="">Privacidad</a>
+        <a class="link-light" href="">Estudiantes</a>
+    </footer>
+</body>
+</html>
