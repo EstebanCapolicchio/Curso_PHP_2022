@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/ticket_styles.css">
-    <script type="text/javascript" src="./js/ticket.js"></script>
 </head>
 <body>
     <header>
@@ -26,35 +25,35 @@
         </div>
     </header>
     <section id="formScreen" class="formScreen">
-        <div class="containerCards ticket-container-cards">
+        <div id="categorias" class="containerCards ticket-container-cards">
             <div class="card ticket-card border-primary" >
                 <div class="card-body">
-                    <h5 class="card-text">Estudiante</h5>
+                    <h5 class="card-text"></h5>
                     <p class="card-text">Tienen un descuento</p>
-                    <h5 class="card-text">80%</h5>
+                    <h5 class="card-text"></h5>
                     <small class="form-text text-muted">* presentar documentación</small>
                 </div>
             </div>
             <div class="card ticket-card border-info">
                 <div class="card-body">
-                    <h5 class="card-text">Trainee</h5>
+                    <h5 class="card-text"></h5>
                     <p class="card-text">Tienen un descuento</p>
-                    <h5 class="card-text">50%</h5>
+                    <h5 class="card-text"></h5>
                     <small class="form-text text-muted">* presentar documentación</small>
                 </div>
             </div>
             <div class="card ticket-card border-warning">
                 <div class="card-body">
-                    <h5 class="card-text">Junior</h5>
+                    <h5 class="card-text"></h5>
                     <p class="card-text">Tienen un descuento</p>
-                    <h5 class="card-text">15%</h5>
+                    <h5 class="card-text"></h5>
                     <small class="form-text text-muted">* presentar documentación</small>
                 </div>
             </div>
         </div>
-        <div>
+        <div id="precio_general">
             <h6>VENTA</h6>
-            <h3>VALOR DE TICKET $200</h3>
+            <h3>VALOR DE TICKET $</h3>
         </div>
         <form class="formulario" action="">
             <div class="row g-3">
@@ -74,17 +73,20 @@
                 <div class="col-md-6">
                     <label class="form-label">Categoría</label>
                     <select class="form-select">
-                        <option selected>Estudiante</option>
+                        <option selected>---</option>
+                        <option>Estudiante</option>
                         <option>Trainee</option>
                         <option>Junior</option>
                     </select>
                 </div>
-                <div class="btn btn-primary text-bg-info">Info with contrasting color</div>
-                <div class="d-grid gap-2 col-6 mx-auto">
-                    <button type="button" class="btn btn-primary btnLightGreenColor">Borrar</button>
+                <div id="texto_resumen_compra" class="d-grid gap-2 col-12">
+                    <label class="form-label text-bg-info">Total a Pagar: $</label>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto">
-                    <button type="button" class="btn btn-primary btnLightGreenColor">Resumen</button>
+                    <button id="borrar" type="button" class="btn btn-primary btnLightGreenColor">Borrar</button>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button id="comprar" type="button" class="btn btn-primary btnLightGreenColor">Resumen</button>
                 </div>
             </div>
         </form>
@@ -98,5 +100,6 @@
         <a class="link-light" href="">Privacidad</a>
         <a class="link-light" href="">Estudiantes</a>
     </footer>
+    <script type="text/javascript" src="./js/ticket.js"></script>
 </body>
 </html>

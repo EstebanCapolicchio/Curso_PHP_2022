@@ -4,3 +4,15 @@
     text-align: center;
     padding-top: 15px;
 }
+
+@media screen and (max-width:768px){
+    .containerCards{
+        justify-content: center;
+    }
+
+    .card{
+        width: 30vh;
+        font-size: 2vh;
+    }
+
+}
