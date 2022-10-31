@@ -53,7 +53,7 @@ function validar_apellido(apellido){
 }
 
 function validar_email(email){
-    let patron=/[a-zA-Z ]@(gmail.com)/;
+    let patron=/[a-zA-Z ](@gmail.com|@hotmail.com|@yahoo.com)/;
     if(email.value.match(patron)){
         email.classList.remove("is-invalid");
         email.classList.add("is-valid");
