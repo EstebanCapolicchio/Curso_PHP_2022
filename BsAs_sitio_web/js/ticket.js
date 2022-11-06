@@ -22,7 +22,7 @@ let precio_general = document.getElementById('precio_general');
 let texto_precio_general = precio_general.getElementsByTagName("h3")[0].innerHTML;
 precio_general.getElementsByTagName("h3")[0].innerHTML = texto_precio_general + precio_inicial;
 
-//----------------------------------------------------------//
+//Validaciones --------------------------------------------//
 
 function validar_nombre(nombre){
     let patron=/[a-zA-Z ]/;
@@ -88,6 +88,8 @@ function validar_inputs(nombre, apellido, email, cantidad){
     return aux_nombre && aux_apellido && aux_email && aux_cantidad;
 }
 
+//----------------------------------------------------------//
+
 function porcentaje_texto_a_decimal(texto){
     let aux_num = parseInt(texto, 10);//extraer del texto el numero // "80%" -> '80'
     if(aux_num!=NaN && aux_num >= 0 && aux_num <= 100){
@@ -111,7 +113,7 @@ function resumen_compra(){
     if(validar_inputs(nombre, apellido, email, cantidad)){
         let descuento_a_aplicar = "0%";
         for(let i=0; i<categorias.length; i++){
-            if(categorias[i].nombre.value == document.getElementsByClassName("form-select")[0].value){
+            if(categorias[i].nombre == document.getElementsByClassName("form-select")[0].value){
                 descuento_a_aplicar = categorias[i].descuento;
                 break;
             }
@@ -121,6 +123,14 @@ function resumen_compra(){
         document.getElementById("texto_resumen_compra").children[0].innerHTML = "Total a Pagar: $" + Math.round(precio_total);
     }
 }
+
+function tester_formulario(){
+    document.getElementsByClassName("form-control")[0].value = "Fulanito";
+    document.getElementsByClassName("form-control")[1].value = "Fulannino";
+    document.getElementsByClassName("form-control")[2].value = "Fula@gmail.com";
+    document.getElementsByClassName("form-control")[3].value = "2";
+}
+tester_formulario();
 
 function borrar_compra(){
     document.getElementsByClassName("form-control")[0].value = "";
