@@ -123,7 +123,7 @@ function resumen_compra(){
         document.getElementById("texto_resumen_compra").children[0].innerHTML = "Total a Pagar: $" + Math.round(precio_total);
     }
 }
-
+/*
 function tester_formulario(){
     document.getElementsByClassName("form-control")[0].value = "Fulanito";
     document.getElementsByClassName("form-control")[1].value = "Fulannino";
@@ -131,6 +131,7 @@ function tester_formulario(){
     document.getElementsByClassName("form-control")[3].value = "2";
 }
 tester_formulario();
+*/
 
 function borrar_compra(){
     document.getElementsByClassName("form-control")[0].value = "";
