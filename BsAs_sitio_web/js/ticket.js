@@ -25,7 +25,7 @@ precio_general.getElementsByTagName("h3")[0].innerHTML = texto_precio_general + 
 //Validaciones --------------------------------------------//
 
 function validar_nombre(nombre){
-    let patron=/[a-zA-Z ]/;
+    let patron=/^[a-zA-Z ]+$/;
     if(nombre.value.match(patron)){
         nombre.classList.remove("is-invalid");
         nombre.classList.add("is-valid");
@@ -39,7 +39,7 @@ function validar_nombre(nombre){
 }
 
 function validar_apellido(apellido){
-    let patron=/[a-zA-Z ]/;
+    let patron=/^[a-zA-Z ]+$/;
     if(apellido.value.match(patron)){
         apellido.classList.remove("is-invalid");
         apellido.classList.add("is-valid");
@@ -53,7 +53,7 @@ function validar_apellido(apellido){
 }
 
 function validar_email(email){
-    let patron=/[a-zA-Z ](@gmail.com|@hotmail.com|@yahoo.com)/;
+    let patron=/[a-zA-Z ]*(@gmail.com|@hotmail.com|@yahoo.com)/;
     if(email.value.match(patron)){
         email.classList.remove("is-invalid");
         email.classList.add("is-valid");
@@ -67,7 +67,7 @@ function validar_email(email){
 }
 
 function validar_cantidad(cantidad){
-    let patron=/[0-9]/;
+    let patron=/^[0-9]+$/;
     if(cantidad.value.match(patron)){
         cantidad.classList.remove("is-invalid");
         cantidad.classList.add("is-valid");
