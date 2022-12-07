@@ -1,36 +1,86 @@
 header{
+    display: flex;
+    justify-content: space-around;
     background-color: rgb(65,205,5);
     padding: 10px 20px;
+    margin: auto;
+}
+
+header a:link{
+    text-decoration: none;
+    font-family: Arial, Helvetica;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
 }
 
 .presentacion_personal{
     display: flex;
-    background-color: rgb(0,205,255);
+    justify-content: center;
+    background-color: rgb(0,205,205);
     padding: 20px 20px;
 }
 
+.presentacion_personal_contenedor{
+    width: 50%;
+}
+
+.presentacion_personal_titulo{
+    width: 90%;
+}
+
+.presentacion_personal_texto{
+}
+
 .proyectos{
-    background-color: rgb(0,255,255);
+    background: rgb(0,255,255);
     padding: 20px 20px;
 }
 
 .proyectos_cards{
-    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
 }
 
 .card{
+    min-width: 100px;
+    max-width: 600px;
 }
 
 .formulario_contacto{
     display:flex;
     justify-content: center;
-    background-color: rgb(25,205,205);
+    background-color: rgb(25,205,255);
     padding: 20px 20px;
 }
 
 footer{
     display: flex;
-    background-color: rgb(220,115,35);
     justify-content: space-evenly;
+    background-color: rgb(220,115,35);
     padding: 20px 20px;
+    padding-bottom: 50px;
+}
+
+.footer_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+footer a:link{
+    text-decoration: none;
+    font-family: Arial, Helvetica;
 }
