@@ -2,8 +2,7 @@ header{
     display: flex;
     justify-content: space-around;
     background-color: rgb(65,205,5);
-    padding: 10px 20px;
-    margin: auto;
+    padding: 10px 0px;
 }
 
 header a:link{
@@ -19,7 +18,6 @@ header a:link{
 
 .navigation{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     gap: 10px;
 }
@@ -44,7 +42,7 @@ header a:link{
 
 .proyectos{
     background: rgb(0,255,255);
-    padding: 20px 20px;
+    padding: 20px 220px;
 }
 
 .proyectos_cards{
