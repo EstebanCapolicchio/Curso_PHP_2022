@@ -1,0 +1,36 @@
+header{
+    background-color: rgb(65,205,5);
+    padding: 10px 20px;
+}
+
+.presentacion_personal{
+    display: flex;
+    background-color: rgb(0,205,255);
+    padding: 20px 20px;
+}
+
+.proyectos{
+    background-color: rgb(0,255,255);
+    padding: 20px 20px;
+}
+
+.proyectos_cards{
+    align-content: center;
+}
+
+.card{
+}
+
+.formulario_contacto{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(25,205,205);
+    padding: 20px 20px;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(220,115,35);
+    justify-content: space-evenly;
+    padding: 20px 20px;
+}
