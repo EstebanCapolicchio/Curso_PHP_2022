@@ -30,7 +30,7 @@ header a:link{
     display: flex;
     justify-content: center;
     background-color: rgb(0,205,205);
-    padding: 20px 20px;
+    padding: 10px 10px;
 }
 
 .presentacion_personal_contenedor{
@@ -45,8 +45,8 @@ header a:link{
 }
 
 .presentacion_personal_img{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 }
 
 .proyectos{
@@ -91,9 +91,24 @@ footer a:link{
 }
 
 @media screen and (min-width:789px){
+    .presentacion_personal{
+        padding: 20px 20px;
+    }
+
+    .presentacion_personal_contenedor{
+        width: 50%;
+    }
+
+    .presentacion_personal_titulo{
+        width: 90%;
+    }
+
+    .presentacion_personal_texto{
+    }
+
     .presentacion_personal_img{
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 300px;
     }
 
     .proyectos_cards{
@@ -105,9 +120,24 @@ footer a:link{
 }
 
 @media screen and (min-width:500px) and (max-width:789px){
+    .presentacion_personal{
+        padding: 20px 20px;
+    }
+
+    .presentacion_personal_contenedor{
+        width: 50%;
+    }
+
+    .presentacion_personal_titulo{
+        width: 90%;
+    }
+
+    .presentacion_personal_texto{
+    }
+
     .presentacion_personal_img{
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
     }
 
     .proyectos_cards{
