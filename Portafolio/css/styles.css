@@ -95,3 +95,14 @@ footer a:link{
         width: 400px;
     }
 }
+
+@media screen and (min-width:500px) and (max-width:789px){
+    .proyectos_cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+    }
+    .card{
+        width: 350px;
+    }
+}
