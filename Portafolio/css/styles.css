@@ -51,13 +51,12 @@ header a:link{
 
 .proyectos_cards{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,1fr);
     gap: 25px;
 }
 
 .card{
-    min-width: 200px;
-    max-width: 600px;
+    width: 300px;
 }
 
 .formulario_contacto{
@@ -86,10 +85,13 @@ footer a:link{
     font-family: Arial, Helvetica;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:789px){
     .proyectos_cards{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 25px;
+    }
+    .card{
+        width: 400px;
     }
 }
