@@ -113,13 +113,15 @@ footer a:link{
 
     .proyectos_cards{
         grid-template-columns: repeat(3,1fr);
+        gap: 15px;
+        text-align: center;
     }
     .card{
-        width: 400px;
+        max-width: 400px;
     }
 }
 
-@media screen and (min-width:500px) and (max-width:789px){
+@media screen and (min-width:645px) and (max-width:968px){
     .presentacion_personal{
         padding: 20px 20px;
     }
@@ -142,9 +144,39 @@ footer a:link{
 
     .proyectos_cards{
         grid-template-columns: repeat(2,1fr);
-        gap: 15px;
+        gap: 10px;
     }
     .card{
-        width: 350px;
+        /*width: 350px;*/
+    }
+}
+
+@media screen and (min-width:989px){
+    .presentacion_personal{
+        padding: 20px 20px;
+    }
+
+    .presentacion_personal_contenedor{
+        width: 50%;
+    }
+
+    .presentacion_personal_titulo{
+        width: 90%;
+    }
+
+    .presentacion_personal_texto{
+    }
+
+    .presentacion_personal_img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .proyectos_cards{
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .card{
+        /*width: 350px;*/
     }
 }
