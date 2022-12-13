@@ -104,6 +104,7 @@ footer a:link{
     }
 
     .presentacion_personal_texto{
+        color: green;
     }
 
     .presentacion_personal_img{
@@ -135,6 +136,7 @@ footer a:link{
     }
 
     .presentacion_personal_texto{
+        color: green;
     }
 
     .presentacion_personal_img{
@@ -147,7 +149,7 @@ footer a:link{
         gap: 10px;
     }
     .card{
-        /*width: 350px;*/
+        width: 350px;
     }
 }
 
@@ -165,6 +167,7 @@ footer a:link{
     }
 
     .presentacion_personal_texto{
+        color: green;
     }
 
     .presentacion_personal_img{
@@ -177,6 +180,6 @@ footer a:link{
         gap: 10px;
     }
     .card{
-        /*width: 350px;*/
+        width: 350px;
     }
 }
